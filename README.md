@@ -1,2 +1,2 @@
 # IOT
-Ressources and Arduino's codes for différents communication protocols (MQTT, HTTP REST)
+Ressources and Arduino's codes for differents communications protocols (MQTT, HTTP REST)
