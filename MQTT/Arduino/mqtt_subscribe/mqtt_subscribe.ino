@@ -14,17 +14,8 @@ const char* password = "PASSWORD";
 #define MQTT_USERNAME     ""
 #define MQTT_KEY          "" 
 
-//DHT
-#define DHTTYPE 11      // DHT 11 
-#define DHTPIN 27       // Digital pin connected to the DHT sensor
-
-DHT dht(DHTPIN, DHTTYPE);
-
 WiFiClient espClient;
 PubSubClient client(espClient);
-
-// Space to store values to send
-char str_sensor[10];
 
 void setup() {
 
